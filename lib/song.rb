@@ -57,7 +57,7 @@ class Song
     created_song = self.new
     created_song.name = file_name.split(" - ")[1].split(".")[0]
     created_song.artist_name = file_name.split(" - ")[0]
-    created_song
+    @@all.push(created_song)
   end
  
  
