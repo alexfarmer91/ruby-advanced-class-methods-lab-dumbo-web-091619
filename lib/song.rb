@@ -60,7 +60,10 @@ class Song
     @@all.push(created_song)
   end
  
- 
+ def self.destroy_all
+   @all = []
+   
+ end 
  
  
 end
