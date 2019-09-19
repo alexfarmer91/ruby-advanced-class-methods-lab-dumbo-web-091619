@@ -40,14 +40,15 @@ class Song
    else 
      self.create_by_name(name)
    end 
+ end 
    
-   def self.alphabetical
-     @@all.sort_by{|a| a.name}
-   end 
+   #def self.alphabetical
+   #  @@all.sort_by{|a| a.name}
+   #end 
    
-   def self.new_from_filename
+   #def self.new_from_filename
      
-   end 
+   #end 
    
  end 
  
