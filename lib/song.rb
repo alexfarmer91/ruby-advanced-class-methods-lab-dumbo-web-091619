@@ -51,6 +51,7 @@ class Song
     song.name = (name.split(" - ")[1])
     song.artist_name = (name.split(" - ")[0])
     song.save
+    song
    end 
    
 
