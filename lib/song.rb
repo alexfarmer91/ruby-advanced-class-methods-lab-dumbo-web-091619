@@ -41,7 +41,11 @@ class Song
      self.create_by_name(name)
    end 
    
-   def self.al
+   def self.alphabetical
+     self.all.sort 
+   end 
+   
+   def self.new
    
  end 
  
